@@ -30,7 +30,7 @@
     <main>
         <div class="profil-lab">
             <div class="profil">
-                <h1 class="profil-h1">Profil Laboratorium</h1>
+                <h1 class="profil-h1">PROFIL LABORATORIUM</h1>
                 <p>Pusat riset dan pengembangan di bawah Jurusan Teknologi Informasi Politeknik Negeri Malang 
                     yang berfokus pada intelligent vision dan smart system.</p>
             </div>
@@ -47,4 +47,18 @@
         </div>
     </main>
 
+    <div class="visi-lab">
+        <div class="visi">
+            <h1 class="visi-h1">VISI</h1>
+        </div>
+
+        <div class="visi-full">
+            <p>Menjadi laboratorium unggulan dalam pengembangan 
+                teknologi penglihatan cerdas (Intelligent Vision) dan 
+                sistem cerdas terintegrasi (Smart Systems) yang 
+                inovatif, aplikatif, serta berdaya saing nasional dan 
+                internasional untuk mendukung kemajuan bidang 
+                teknologi informasi dan industri berbasis kecerdasan 
+                buatan.</p>
+        </div>
 </html>
