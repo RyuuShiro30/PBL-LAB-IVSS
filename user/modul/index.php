@@ -19,11 +19,11 @@
     </div>
 
     <nav class="menu">
-        <a href="">Home</a>
+        <a href="index.php">Home</a>
         <a href="about.php">About</a>
-        <a href="#">News</a>
-        <a href="#">Members</a>
-        <a href="#">Research</a>
+        <a href="news.php">News</a>
+        <a href="research.php">Research</a>
+        <a href="members.php">Members</a>
     </nav>
 </header>
 
