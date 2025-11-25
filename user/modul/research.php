@@ -1,14 +1,11 @@
-<?php
-// index.php
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intelligent Vision and Smart System</title>
-    <link rel="stylesheet" href="../style/navbar.css">
-    <link rel="stylesheet" href="../style/research.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/style_index.css">
 </head>
 <body>
 
@@ -20,7 +17,7 @@
 
     <nav class="menu">
         <a href="index.php">Home</a>
-        <a href="about.php">About</a>
+        <a href="about.php">About Us</a>
         <a href="news.php">News</a>
         <a href="research.php">Research</a>
         <a href="members.php">Members</a>
