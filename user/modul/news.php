@@ -99,5 +99,9 @@
         </div>
     </div>
 
+    <div class="load-more-wrapper">
+        <button id="loadMoreBtn">Lihat Fasilitas Lainnya</button>
+    </div>
+</div>
 </body>
 </html>

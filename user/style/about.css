@@ -302,16 +302,16 @@ body {
 
 .facilities-header-wrapper {
     display: flex;
-    justify-content: space-between;
+    position: relative;
     align-items: center;
     margin-bottom: 35px;
+
 }
 
 .facilities-title {
     font-size: 32px;
     color: #003366;
     font-weight: 700;
-    margin: 0;
 }
 
 .find-more-btn {
@@ -323,6 +323,12 @@ body {
     color: #0A192F;
     font-weight: 700;
     font-size: 18px;
+
+    /* Tambahan untuk pindah ke kanan */
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .find-more-btn .circle {
@@ -350,7 +356,7 @@ body {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 300px);
-    gap: 40px;
+    gap: 110px;
     align-items: flex-start;
 }
 
@@ -377,6 +383,11 @@ body {
     filter: brightness(0) invert(1);
     object-fit: contain;
     display: block;
+    transition: 0.3s ease;
+}
+
+.facility-card:hover .facility-icon img {
+    filter: invert(57%) sepia(93%) saturate(457%) hue-rotate(-1deg) brightness(103%) contrast(104%);
 }
 
 .facility-box {
@@ -393,12 +404,12 @@ body {
 .facility-box span {
     font-size: 18px;
     font-weight: 600;
-    color: #0055aa;
+    color: #0A192F;
 }
 
 .facility-arrow {
     font-size: 20px;
-    color: #00A3FF;
+    color: #0A0F2D;
     text-decoration: none;
     font-weight: bold;
 }
