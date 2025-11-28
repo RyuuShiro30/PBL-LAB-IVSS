@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intelligent Vision and Smart System</title>
-    <link rel="stylesheet" href="../style/header.css">
-    <link rel="stylesheet" href="../style/style_index.css">
-</head>
+<html>
+    <head>
+        <link rel="stylesheet" href="../style/navbar.css">
+        <link rel="stylesheet" href="../style/about.css">
+    </head>
 <body>
-
-<header class="navbar">
+    <header class="navbar">
     <div class="logo-area">
-        <img src="../img/polinema.png" alt="Logo" class="logo">
-        <span class="site-title">POLITEKNIK NEGERI MALANG</span>
+        <img src="../img/IVSS.png" alt="Logo" class="logo">
+        <span class="site-title">IVSS</span>
     </div>
 
     <nav class="menu">
         <a href="index.php">Home</a>
-        <a href="about.php">About Us</a>
+        <a href="about.php">About</a>
         <a href="news.php">News</a>
         <a href="research.php">Research</a>
         <a href="members.php">Members</a>
